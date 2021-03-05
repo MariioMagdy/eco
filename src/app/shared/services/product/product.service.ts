@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProductService {
-  commonURL="https://db-ecowmmerce.herokuapp.com"
+  commonURL="http://localhost:3000"
 
   constructor(private _http:HttpClient) { }
 

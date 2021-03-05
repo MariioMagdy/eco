@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class UserService {
   public token =""
   public isAuth=false
-  commonURL="https://db-ecowmmerce.herokuapp.com"
+  commonURL="http://localhost:3000"
   constructor(private _http:HttpClient) { }
 
   /***Post user data to API */
